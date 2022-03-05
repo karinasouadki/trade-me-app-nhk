@@ -1,7 +1,6 @@
 package com.esgi.trademe.use_cases.agence.application;
 
 import com.esgi.trademe.kernel.CommandHandler;
-import com.esgi.trademe.kernel.configurations.CodeException;
 import com.esgi.trademe.kernel.exceptions.BadRequestException;
 import com.esgi.trademe.use_cases.agence.domain.Agence;
 import com.esgi.trademe.use_cases.agence.domain.AgenceRepository;
@@ -26,7 +25,7 @@ public final class CreateAgenceCommandHandler implements CommandHandler<CreateAg
     public Agence handle(CreateAgence createAgence) {
         LOGGER.info("Enregistrement du nouvel utilisateur en base de données : {}", createAgence.getLibelle());
         if(agenceRepository.findAllByLibelle(createAgence.getLibelle()).isPresent()){
-            throw new BadRequestException(CodeException.ENTITY_ALREADY_EXISTING);
+            throw new BadRequestException("Deja existant");
         }
         Agence agence = modelMapper.map(createAgence, Agence.class);
         return agenceRepository.save(agence);

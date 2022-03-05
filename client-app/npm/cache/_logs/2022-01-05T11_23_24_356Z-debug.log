@@ -1,0 +1,74 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'install'
+0 verbose cli ]
+1 info using npm@7.21.1
+2 info using node@v16.9.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 verbose config tmp This setting is no longer used.  npm stores temporary files in a special
+8 verbose config location in the cache, and they are managed by
+8 verbose config     [`cacache`](http://npm.im/cacache).
+9 timing config:load:env Completed in 1ms
+10 timing config:load:file:C:\Users\haithem.limam\Documents\Etude\Architecture logicielle\App\trade-me-main\client-app\.npmrc Completed in 0ms
+11 timing config:load:project Completed in 2ms
+12 timing config:load:file:C:\Users\haithem.limam\.npmrc Completed in 1ms
+13 timing config:load:user Completed in 1ms
+14 timing config:load:file:C:\Users\haithem.limam\Documents\Etude\Architecture logicielle\App\trade-me-main\client-app\target\npm\etc\npmrc Completed in 0ms
+15 timing config:load:global Completed in 0ms
+16 timing config:load:validate Completed in 0ms
+17 timing config:load:credentials Completed in 1ms
+18 timing config:load:setEnvs Completed in 1ms
+19 timing config:load Completed in 10ms
+20 timing npm:load:configload Completed in 10ms
+21 timing npm:load:setTitle Completed in 0ms
+22 timing npm:load:setupLog Completed in 0ms
+23 timing config:load:flatten Completed in 2ms
+24 timing npm:load:cleanupLog Completed in 2ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load:projectScope Completed in 0ms
+27 timing npm:load Completed in 14ms
+28 timing arborist:ctor Completed in 1ms
+29 timing arborist:ctor Completed in 0ms
+30 timing idealTree:init Completed in 7ms
+31 timing idealTree:userRequests Completed in 0ms
+32 silly idealTree buildDeps
+33 timing idealTree:#root Completed in 0ms
+34 timing idealTree:buildDeps Completed in 10ms
+35 timing idealTree:fixDepFlags Completed in 0ms
+36 timing idealTree Completed in 17ms
+37 timing reify:loadTrees Completed in 18ms
+38 timing reify:diffTrees Completed in 1ms
+39 silly reify moves {}
+40 timing reify:retireShallow Completed in 0ms
+41 timing reify:createSparse Completed in 0ms
+42 timing reify:loadBundles Completed in 0ms
+43 silly audit report null
+44 timing reify:audit Completed in 0ms
+45 timing reify:unpack Completed in 0ms
+46 timing reify:unretire Completed in 0ms
+47 timing build:queue Completed in 0ms
+48 timing build:deps Completed in 0ms
+49 timing build Completed in 0ms
+50 timing reify:build Completed in 0ms
+51 timing reify:trash Completed in 0ms
+52 timing reify:save Completed in 2ms
+53 timing reify Completed in 51ms
+54 timing command:install Completed in 52ms
+55 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\haithem.limam\Documents\Etude\Architecture logicielle\App\trade-me-main\client-app\package.json'
+56 verbose cwd C:\Users\haithem.limam\Documents\Etude\Architecture logicielle\App\trade-me-main\client-app
+57 verbose Windows_NT 10.0.19043
+58 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+59 verbose node v16.9.1
+60 verbose npm  v7.21.1
+61 error code ENOENT
+62 error syscall open
+63 error path C:\Users\haithem.limam\Documents\Etude\Architecture logicielle\App\trade-me-main\client-app/package.json
+64 error errno -4058
+65 error enoent ENOENT: no such file or directory, open 'C:\Users\haithem.limam\Documents\Etude\Architecture logicielle\App\trade-me-main\client-app\package.json'
+66 error enoent This is related to npm not being able to find a file.
+67 verbose exit -4058

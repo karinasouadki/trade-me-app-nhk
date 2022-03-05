@@ -9,13 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.esgi</groupId>
-	<artifactId>trade-me</artifactId>
+	<artifactId>trade-me-app-nhk</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>trade-me-app-nhk</name>
 	<description>Trade-Me App du groupe Nelson, Hang et Karina</description>
 	<packaging>pom</packaging>
 	<modules>
 		<module>server-app</module>
+		<module>client-app</module>
 	</modules>
 	<properties>
 		<spring-boot.version>2.5.7</spring-boot.version>

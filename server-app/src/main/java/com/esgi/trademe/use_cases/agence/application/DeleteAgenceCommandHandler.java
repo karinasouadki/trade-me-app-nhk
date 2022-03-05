@@ -1,19 +1,13 @@
 package com.esgi.trademe.use_cases.agence.application;
 
 import com.esgi.trademe.kernel.CommandHandler;
-import com.esgi.trademe.kernel.configurations.CodeException;
 import com.esgi.trademe.kernel.exceptions.BadRequestException;
 import com.esgi.trademe.use_cases.agence.domain.Agence;
 import com.esgi.trademe.use_cases.agence.domain.AgenceRepository;
-import com.esgi.trademe.use_cases.user.application.DeleteWorker;
-import com.esgi.trademe.use_cases.user.domain.User;
-import com.esgi.trademe.use_cases.user.domain.UserRepository;
-import com.esgi.trademe.use_cases.user.infrastructure.Roles;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Objects;
 import java.util.Optional;
 
 @Slf4j
