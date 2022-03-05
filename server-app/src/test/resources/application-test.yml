@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      username: TradeMe
+      password: TradeMeMP2022
+      host: localhost
+      port: 27017
+      database: TradeMe
+  jpa:
+    hibernate.ddl-auto: "update"
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    org.springframework.security.web: INFO
