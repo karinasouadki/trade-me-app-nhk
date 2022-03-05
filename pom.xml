@@ -11,8 +11,8 @@
 	<groupId>com.esgi</groupId>
 	<artifactId>trade-me</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>trade-me</name>
-	<description>POC EGI Trade-Me</description>
+	<name>trade-me-app-nhk</name>
+	<description>Trade-Me App du groupe Nelson, Hang et Karina</description>
 	<packaging>pom</packaging>
 	<modules>
 		<module>server-app</module>
