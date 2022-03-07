@@ -8,13 +8,15 @@ trade-me-app-nhk
 
 Status
 
-such as proposed
+tel que proposé
 
 Context
 
 une plateforme mis en place pour une echange entre les professionnels
 
 Decision
+
+
 
 
 
